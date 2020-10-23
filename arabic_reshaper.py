@@ -96,11 +96,11 @@ def arabic_reshaper(text, reverse = 0):
     reshaped_text = reshaped_text.replace('ﻠﺎ', 'ﻼ')
 
     #لعكس النص
-    if reverse == 1:
+    if reverse != 0:
         reshaped_text = reshaped_text[::-1]
 
     return reshaped_text
 
-## للطباعة على الشاشة
+# للطباعة على الشاشة
 print(arabic_reshaper('لأن'))   #لتجميد الأحرف
 input(arabic_reshaper('لأن', 1))   #لتجميد الأحرف وعكس النص
