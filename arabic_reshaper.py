@@ -101,7 +101,6 @@ def arabic_reshaper(text, reverse = 0):
 
     return reshaped_text
 
-print(arabic_reshaper('لآم'))   #لتجميد الأحرف
-input(arabic_reshaper('لآم', 1))   #لتجميد الأحرف وعكس النص
-
-#input فقط لطباعة النص
+## للطباعة على الشاشة
+print(arabic_reshaper('لأن'))   #لتجميد الأحرف
+input(arabic_reshaper('لأن', 1))   #لتجميد الأحرف وعكس النص
